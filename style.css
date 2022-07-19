@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #161616;
-    Width: 1200px;
+    Width: 1250px;
     Height: 500px;
     border: 1px solid black;
     border-radius: 20px;
@@ -127,11 +127,24 @@ body {
 /*============================================================================ 
 footers start
  ============================================================================*/
-.footer-container {
+.last-continer {
+    Width: 1250px;
+    Height: 300px;
     background-color: #000000;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 25px 50px 70px;
+}
+
+.footer-container {
     color: white;
     text-align: center;
     margin-top: 50px;
+}
+
+hr {
+    border: 1px solid #8768c2;
+    margin-bottom: 27px;
 }
 
 .footer-container h3 {
@@ -143,11 +156,9 @@ footers start
 .footer-details {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-
 }
 
 .footer-icons {
     text-align: center;
     font-size: 20px;
-    gap: 60px;
 }
