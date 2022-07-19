@@ -1,0 +1,122 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+/*=========================================
+ body header
+ ==========================================*/
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #161616;
+    Width: 1200px;
+    Height: 500px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 25px 50px 70px;
+}
+
+.maintain {
+    color: whitesmoke;
+    width: 50%;
+    padding: 25px 50px 75px 50px;
+}
+
+.maintain p {
+    font-size: small;
+}
+
+.title {
+    font-size: 4em;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.live {
+    font-size: 1em;
+    color: aliceblue;
+    background: #DD0000;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.marcelo {
+    width: 600px;
+    height: 100%;
+    margin-top: 10%;
+    margin-left: 20%;
+
+}
+
+/*=========================================
+ body header end
+ ==========================================*/
+/*=========================================
+ body section
+ ==========================================*/
+.semi-container {
+    margin-left: 60px;
+}
+
+.set-meanu {
+    width: 250px;
+    height: 250px;
+    background-color: #161616;
+    border-radius: 30px;
+}
+
+.set-itam {
+    text-decoration: none;
+    Width: 160px;
+    Height: 64px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+.set-itam.like {
+    background-color: #DD0000;
+    color: whitesmoke;
+}
+
+/*=============================================================================
+ Players catagori 
+============================================================================ */
+.players-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1000px;
+    margin: auto;
+    gap: 20px;
+}
+
+.player {
+    box-shadow: 0px 1px 19px 1px #00000031;
+    padding: 1rem;
+    border-radius: 7px;
+}
+
+.Player-banner img {
+    width: 100%;
+}
+
+.players-info {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.real:hover {
+    background-color: #DD0000;
+}
+
+.time-manage {
+    display: flex;
+    gap: 50px;
+}
+
+/*=============================================================================
+ Players catagori 
+============================================================================ */
