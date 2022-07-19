@@ -57,6 +57,10 @@ body {
 /*=========================================
  body section
  ==========================================*/
+.main-container {
+    display: flex;
+}
+
 .semi-container {
     margin-left: 60px;
 }
@@ -83,9 +87,9 @@ body {
 }
 
 /*=============================================================================
- Players catagori 
+ Players catagori start
 ============================================================================ */
-.players-gallery {
+.nano-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 1000px;
@@ -94,9 +98,9 @@ body {
 }
 
 .player {
-    box-shadow: 0px 1px 19px 1px #00000031;
-    padding: 1rem;
-    border-radius: 7px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    padding: 2rem;
+    border-radius: 9px;
 }
 
 .Player-banner img {
@@ -118,5 +122,5 @@ body {
 }
 
 /*=============================================================================
- Players catagori 
+ Players catagori end
 ============================================================================ */
