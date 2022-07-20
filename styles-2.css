@@ -97,15 +97,27 @@ body {
     gap: 20px;
 }
 
+.Player-banner.game {
+    width: 100%;
+}
+
+.Player-banner {
+    display: flex;
+
+}
+
+.war {
+    font-size: larger;
+    padding: 5PX;
+}
+
 .player {
     box-shadow: 5px 10px 8px 10px #888888;
     padding: 2rem;
     border-radius: 9px;
 }
 
-.Player-banner img {
-    width: 100%;
-}
+
 
 .players-info {
     width: 100%;
@@ -173,8 +185,8 @@ Media queri
  ---------------------------------------------------------------------------------- */
 @media only screen and (max-width: 688px) {
     .container {
-        width: 100%;
-        height: 100%;
+        width: 80%;
+        height: 80%;
         flex-direction: column;
 
     }
@@ -213,8 +225,8 @@ Media queri
  ---------------------------------------------------------------------------------- */
 @media only screen and (min-width: 688px) and (max-width:992px) {
     .container {
-        width: 100%;
-        height: 100%;
+        width: 75%;
+        height: 75%;
 
     }
 
